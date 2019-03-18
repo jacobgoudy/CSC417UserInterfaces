@@ -1,0 +1,92 @@
+header > div:first-child {
+  /* gradient CSS */
+  background-image: -moz-linear-gradient(top,#e7e85b,#f8f4fa);
+  background-image: -webkit-linear-gradient(top,#e7e85b,#f8f4fa);
+  background-image: -ms-linear-gradient(top,#e7e85b,#f8f4fa);
+  background-image: -o-linear-gradient(top,#e7e85b,#f8f4fa);
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr=#e7e85b,endColorstr=#f8f4fa);
+  background-repeat: no-repeat;
+  /* ----------------------------- */
+  position: relative;
+  border-bottom: solid 1px #000;
+  padding-right: 25px;
+}
+
+header > div:first-child span.login {
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+.navbar {
+  font-size: 14px;
+  line-height: 14px;
+  padding-top:3px;
+  padding-bottom:3px;
+  background: black ! important;
+}
+
+.navbar-toggler {
+  margin: 0 0 1px 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: inherit;
+}
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-divider {
+  background: black ! important;
+  height: 2px;
+}
+
+.dropdown-menu {
+  background: #000;
+  border: solid 1px black;
+}
+
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+
+.nav-item a {
+  color: white ! important;
+}
+
+.nav-link a {
+  color: white ! important;
+}
+
+.dropdown-toggle:hover {
+  text-decoration: underline ! important;
+}
+
+.dropdown-menu a:hover {
+  background: #666 ! important;
+}
+
+.message {
+  color: #f00;
+}
+
+input[type='text']::placeholder,
+input[type='number']::placeholder 
+{ 
+  color:red; 
+  font-style: italic;
+  opacity: .75;
+  font-size: 90%;
+}
+
+select {
+  width: auto ! important;
+}
