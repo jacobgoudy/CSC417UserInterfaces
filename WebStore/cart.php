@@ -9,7 +9,7 @@ require_once "include/db.php";
 if (!isset($session->cart)) {  // or, is_null($session->cart)
   $session->cart = [];
 }
-
+//
 // for example, suppose we have added this to the cart: 
 
 $session->cart[9] = 2; 
